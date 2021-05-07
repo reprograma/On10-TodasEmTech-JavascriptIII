@@ -629,6 +629,7 @@ MDN: [reduce](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/
 ## Objetos
 
 > Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções). Podem ser de qualquer tipo.
+> Em JavaScript, quase tudo é um objeto. Todos os tipos primitivos - com exceção de null e undefined - são tratados como objetos. Eles podem receber propriedades e possuem todas as características de objetos.
 
 Declaração de objetos
 
