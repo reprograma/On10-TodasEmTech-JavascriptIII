@@ -1,7 +1,7 @@
 ## Exercícios para casa 
 
 
-### Revisando conceitos
+### 1. Revisando conceitos
 
 Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras: 
 
@@ -11,8 +11,8 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 3. Como funciona o método map()? 
 ```
 
-### 1. Manipulando objetos 
-O desafio consiste em manipular uma array de objetos, juntando alguns conceitos que revisamos hoje. O exercício não é fácil e por isso, tenha calma na resolução. Pesquise e utilize todos os links da referência para chegar a uma solução possível. 
+### 2. Manipulando objetos 
+O desafio está no `script.js` e consiste em manipular uma array de objetos, juntando alguns conceitos que revisamos hoje. O exercício não é fácil e por isso, tenha calma na resolução. Pesquise e utilize todos os links da referência para chegar a uma solução possível. 
 
 Não tenha medo de errar! Entregue o que conseguiu fazer.
 
