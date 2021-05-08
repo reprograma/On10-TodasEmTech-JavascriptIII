@@ -20,11 +20,23 @@ Não tenha medo de errar! Entregue o que conseguiu fazer.
 ----
 
 #### EXTRA: 
-Se quiser praticar ainda mais o seu conhecimento, faça alguns exercícios do site https://www.urionlinejudge.com.br/judge/pt/login . Você não precisa fazer nenhuma entrega sobre essa tarefa, mas guarde o link com carinho para praticar sempre que possível! 
+
+O [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login) é uma plataforma de exercícios para praticar lógica, selecionei alguns exercícios como lição de casa, caso queira praticar sinta-se a vontade de fazer outros exercícios da plataforma.
+
+
+- [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
+
+- [Exercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/1049)
+
+- [Exercício 03](https://www.urionlinejudge.com.br/judge/pt/problems/view/1066)
+
+- [Exercício 04](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134)
+
+- [Exercício 05](https://www.urionlinejudge.com.br/judge/pt/problems/view/1114)
+
+- [Exercício 06](https://www.urionlinejudge.com.br/judge/pt/problems/view/1009)
+
 
 Lembrem-se: quanto mais praticamos, mais aprendemos!
 
 Beijos, falem comigo se tiverem dúvidas
-
-
-
