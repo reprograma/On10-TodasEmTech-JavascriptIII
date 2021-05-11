@@ -6,7 +6,7 @@ const frutas = ["banana", "pera", "morango", "kiwi", "manga"]
 
 //2. Crie uma array com 100 espaços vazios.
 
-const arrayCem = new Array(100)
+const arrayCem = new Array(100);
 
 //Outra alternativa:
 let posicoes = [];
@@ -31,7 +31,7 @@ console.log(frutas[frutas.length - 1])
 
 //----- For
 
-//4. Printar na tela em cada linha o nome de uma fruta d0 array anterior;
+//4. Printar na tela em cada linha o nome de uma fruta do array anterior;
 
 for (let i = 0; i < frutas.length; i++) {
   console.log(frutas[i])
@@ -56,33 +56,78 @@ arrayCem.forEach((item) => {
   console.log(item * 2)
 })
 
-//7. Dado o seguinte array, printe o tamanho de cada string a cada iteração
+//7. Dado o seguinte array (???), printe o tamanho de cada string a cada iteração
 
+const arrayCasa = ["cama", "mesa", "cadeira", "sofá", "tv"]
+
+arrayCasa.forEach((item) => {
+  console.log(item.length)
+})
+
+//Outra alternativa
+for (item of arrayCasa) {
+  console.log(item.length)
+}
 
 //---- Map
 
-//8. Dada uma array de nomes, criar um novo array que adiciona o pronome de tratamento "sra." antes de cada nome;
+//8. Dado um array de nomes, criar um novo array que adiciona o pronome de tratamento "sra." antes de cada nome;
+
+const arrayNomes = ["Maria", "Sandra", "Cristina", "Eunice", "Odete"]
+
+arrayNomes.map((item) => {
+  return `Sra. ${item}`
+})
 
 //9. Dado uma array de preços de livros, retorne um array com os preços com desconto de 20%.
 
+const precosLivros = [10, 20, 40, 50, 100]
+
+const desconto = precosLivros.map((item) => {
+  return item - (item*0.2)
+})
 
 //---- Filter
 
 //10. Dada a array de livros *com desconto*, crie uma nova array contendo todos os preços que estão abaixo de 30;
 
+desconto.filter((precos) => {
+  return precos < 30
+})
 
 //---- Reduce
 
 //11. Como essa promoção de livros está muito boa e você tem dinheiro para comprar os livros que quer, some os preços com desconto dessa array
 
+desconto.reduce((acc, value) =>{
+  return acc + value
+})
 
 //---- Objetos
 
 //12. Crie um objeto chamado animal com as seguintes propriedades: porte, especie e raca; coloque os valores que quiser
 
+let animal = {
+  especie: "Cachorro",
+  porte: "Grande",
+  raca: "Samoieda"
+}
 
 //13. Crie um objeto curso que receba as propriedades: nome, período, professora. Atribua valores as propriedades criadas e separadamente mostre as propriedades no console.log
 
+let curso = {
+  nome: "Reprograma",
+  periodo: "1",
+  professora: {
+    nome: "Bruna",
+    sobrenome: "Gil",
+    empresa: "Itaú Unibanco"
+  }
+}
+
+console.log(curso.nome);
+console.log(curso.professora.nome);
+console.log(curso.professora.empresa);
 
 //--- Tudo junto e misturado!!
 
@@ -115,11 +160,28 @@ const data = [
     tipo: "gato",
   },
 
-];
+]
 
-// printar no console apenas os cachorros
+// Printar no console apenas os cachorros
 
-// printe no console apenas os gatos
+data.filter((objeto) => {
+  if (objeto.tipo == "cachorro") {
+    console.log(objeto)
+  }
+})
 
-// some a idade de todos os gatos juntos
+// Printe no console apenas os gatos
 
+data.filter((objeto) => {
+  if (objeto.tipo == "gato") {
+    console.log(objeto)
+  }
+})
+
+// Some a idade de todos os gatos juntos
+
+data.filter((objeto) => {
+  if (objeto.tipo == "gato") {
+    console.log(objeto.idade)
+  }
+})

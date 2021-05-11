@@ -18,7 +18,7 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 //---1. [CERTO]
 
         function multiplicacao(a,b) {
-        return  a * b  
+            return  a * b  
         }
 
 -------------------------------------------------------------------------------------------------------------
@@ -31,10 +31,10 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 
 //---2. [CERTO]
 
-        //item = 0
+        item = 0
+
         while(item < 10) {
-        //enquanto (20 for maior que 10)
-        return item++
+            return item++
         }
 
 --------------------------------------------------------------------------------------------------------------
@@ -42,18 +42,17 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 //---3. Deve exibir "Banana" 4 vezes [ERRADO]
 
         const fruits = ["Maça", "Banana", "Limão", "Pêra"];
+        
         for(x; x = 0; x+) {
             consolelog(x)
         }
-
+ 
 
 //---3. Deve exibir "Banana" 4 vezes [CERTO]
 
         const fruits = ["Maça", "Banana", "Limão", "Pêra"];
-        for(2; x = 0; x+) {
-            consolelog(x)
-        }
-        for(let x=0; x < fruits.lenght; x++) {
+
+        for(let x = 0; x < fruits.length; x++) {
             console.log(fruits[1])
         }
 
