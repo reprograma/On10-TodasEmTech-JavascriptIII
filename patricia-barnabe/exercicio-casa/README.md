@@ -7,9 +7,18 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+    É uma repetição de comandos, ações ou sequências de instruções realizadas dentro de um determinado escopo até que seja atingida uma
+    condição pre-determinada ou até que seja alcançado o fim da execução. 
+
 2. Qual a diferença de uma function padrão e a arrow function?
+    São apenas formas diferentes de representação de uma função. O uso da palavra reservada function requer uma determinada sintaxe, assim
+    como o uso da arrow function requer outros tipos de sintaxes. O nome arrow function está vinculado ao uso do símbolo "=>" para representar
+    a existência da função.
+
 3. Como funciona o método map()? 
-```
+    Esse método é específico para arrays. Ele percorre um determinado array e retorna um cópia modificada desse array, que deve ter o mesmo
+    tamanho do array original. Ao percorrer o array original, é executada uma função callback (função que só é executada após uma primeira 
+    função ser executada, nesse caso, a função/método map()) que irá realizar a modificação que resultará no array modificado. 
 
 ### 2. Manipulando objetos 
 O desafio está no `script.js` e consiste em manipular uma array de objetos, juntando alguns conceitos que revisamos hoje. O exercício não é fácil e por isso, tenha calma na resolução. Pesquise e utilize todos os links da referência para chegar a uma solução possível. 
