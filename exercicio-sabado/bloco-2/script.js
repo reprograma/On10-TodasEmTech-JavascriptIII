@@ -55,6 +55,7 @@ arrayCem.forEach((item) => {
 
 //7. Dada a seguinte array, printe o tamanho de cada string a cada iteração
 
+const elementosQuimicos = ["Hidrogenio", "Helio", "Litio", "Oxigenio"];
 
 //---- Map
 
