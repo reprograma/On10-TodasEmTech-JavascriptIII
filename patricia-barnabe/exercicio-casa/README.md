@@ -35,15 +35,93 @@ O [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login) é uma pl
 
 - [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
 
+let codigoDoLanche = Number(prompt("Digite o código do lanche desejado: 1- Cachorro Quente | 2- X-salada | 3- X-Bacon | 4- Torrada simples | 5- Refrigerante"));
+
+let quantidadeDoLanche = Number(prompt("Quantos lanches você deseja?"));
+
+switch (codigoDoLanche) {
+    case "1":
+    valor = 4 * quantidadeDoLanche
+    break;
+    case "2":
+    valor = 4.50 * quantidadeDoLanche
+    break;
+    case "3":
+    valor = 5 * quantidadeDoLanche
+    break;
+    case "4":
+    valor = 2 * quantidadeDoLanche
+    break;
+    case "5":
+    valor = 1.50 * quantidadeDoLanche
+    break;
+    default: 
+    alert("O código digitado não corresponde a nenhum lanche. Por favor, insira um código válido.")
+    break;
+};
+
+alert ("O valor total é R$" + valor.toFixed(2));
+
 - [Exercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/1049)
 
 - [Exercício 03](https://www.urionlinejudge.com.br/judge/pt/problems/view/1066)
 
 - [Exercício 04](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134)
 
+let combustivel = 0;
+
+let alcool = 0;
+let gasolina = 0;
+let diesel = 0;
+
+combustivel = parseInt(prompt("Qual dos nossos produtos você prefere? 1.Álcool | 2.Gasolina | 3.Diesel | 4.Fim"));
+
+while (combustivel <= 4) {
+  switch(combustivel){
+  case '1': 
+    alcool++
+    break;
+  case '2': 
+    gasolina++
+    break;
+  case '3':
+    diesel++
+    break;
+  case '4':
+      alert (`MUITO OBRIGADO
+       Álcool: ${alcool}, Gasolina: ${gasolina}, Diesel: ${diesel}`)
+    break;
+  default:
+      alert ("O código digitado não corresponde a nenhum de nossos produtos. Por favor, insira um código válido.")
+    break;
+    } 
+ combustivel = prompt("Qual dos nossos produtos você prefere? 1.Álcool | 2.Gasolina | 3.Diesel | 4.Fim"); 
+}; 
+
 - [Exercício 05](https://www.urionlinejudge.com.br/judge/pt/problems/view/1114)
 
+let senha = prompt('Digite sua senha: ');
+
+while(senha !== '2002'){
+    alert('Senha inválida')
+    senha = prompt('Digite sua senha: ') 
+}
+
+      alert('Acesso permitido');
+
 - [Exercício 06](https://www.urionlinejudge.com.br/judge/pt/problems/view/1009)
+
+let nomeVendedor = prompt("Nome do vendedor:");
+let salarioFixo = Number(prompt("Salário fixo:"));
+let totalDeVendas = Number(prompt("Total de vendas efetuadas no mês:"));
+let comissao = 0.15;
+
+let total = salarioFixo + (vendas*comissao);
+
+
+alert ("O valor total é R$" + total.toFixed(2));
+
+
 
 
 Lembrem-se: quanto mais praticamos, mais aprendemos!
