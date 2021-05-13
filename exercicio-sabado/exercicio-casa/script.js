@@ -15,6 +15,12 @@ const users = [
   },
 ]
 
+const juntarNome = fullName.reduce(function (firstName, lastName) {
+  return fullName.firstName + fullName.lastName
+})
+
+
+
 /*
   Você recebeu uma array de objetos da nova desenvolvedora backend do seu trabalho dos sonhos. Porém, percebeu que não vai precisar de todas essas informações! Por conta disso, será necessário criar um novo objeto apenas com aquilo que será utilizado
 

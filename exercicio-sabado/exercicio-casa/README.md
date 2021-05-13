@@ -6,8 +6,16 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+
+🐙 É a repetição de uma ou mais ações dentro do código até que seja atingida uma condição
+
 2. Qual a diferença de uma function padrão e a arrow function?
+
+🐙 Arrow function é uma maneira mais curta de escrever uma function padrão, podendo ser escrita diretamente na const/let
+
 3. Como funciona o método map()? 
+
+🐙 Executa uma function dentro de um array e retorna um novo array como resultado
 
 ```
 
