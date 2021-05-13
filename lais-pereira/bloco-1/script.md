@@ -9,39 +9,44 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 \*/
 
 //---1.
-
 function multiplicacao(a,b) {
-return a \* b  
-}
+return a \* b
+};
+console.log(multiplicacao(2,4));
 
 //---2.
-
-while(item > 10) {
+let item = 0;
+while(item < 10) {
 item++
-}
+console.log(item)
+};
 
 //---3. Deve exibir "Banana" 4 vezes
-
-const fruits = ["Maça", "Banana", "Limão", "Pêra"];
-for(x; x = 0; x+) {
-consolelog(x)
+let fruits = ["Maça", "Banana", "Limão", "Pêra"];
+for(let x = 0; x < fruits.length; x++) {
+if(fruits[x] === 'Banana'){
+for(let i = 1; i<=4; i++){
+console.log(fruits[x])
 }
+}
+};
 
 //---4. Deve exibir um alerta "oi gente" se o primeiro elemento for maior que o segundo
-
-if frases < palavras {
-alert("oi gente")
-} else if {
-aler ("tchau gente")
-}
+let elemento1 = "frases";
+let elemento2 = "palavras";
+if (elemento1.length > elemento2.length) {
+console.log("oi, gente")
+} else {
+console.log("tchau, gente")
+};
 
 //---5. Deve exibir o valor da propriedade "sobrenome"
-
-let curso: {
-nome = "Jardinagem";
-periodo = "manha" ;
-professora = "Amanda" {
-sobrenome = "Lopes"
-};
+let curso = {
+nome: "Jardinagem",
+periodo: "manha" ,
+professora:{
+nome: "Amanda",
+sobrenome: "Lopes"
 }
-console.log(professora.sobrenome)
+};
+console.log(curso.professora.sobrenome);
