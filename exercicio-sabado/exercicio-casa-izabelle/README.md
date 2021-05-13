@@ -46,3 +46,8 @@ O [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login) é uma pl
 Lembrem-se: quanto mais praticamos, mais aprendemos!
 
 Beijos, falem comigo se tiverem dúvidas
+
+## Ícones
+:up: atualização
+:bug: correção de erros
+:checkered_flag: release
