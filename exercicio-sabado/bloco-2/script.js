@@ -3,7 +3,9 @@
 // 1. Crie uma array com 5 frutas diferentes;
 
 
+
 //2. Crie uma array com 100 espaços vazios.
+
 
 
 //3. Printe o ultimo elemento da array de frutas, baseando-se no seu length
@@ -17,9 +19,12 @@
 //5. Inserir números crescentes a partir do 1 na array de 100 slots (a array vai ter 100 items, com o primeiro sendo 1 e o último sendo 100).
 
 
+
 //----- ForEach
 
 //6. criar uma array, cujos itens sejam o dobro dos items da array de 100 itens.
+
+
 
 //7. Dada a seguinte array, printe o tamanho de cada string a cada iteração
 
@@ -53,32 +58,31 @@
 
 //. Dada a seguinte array de objetos:
 
-const data = [
-  {
-    nome: "Scooby Doo",
-    idade: 7,
-    tipo: "cachorro",
-  },
-  {
-    nome: "Sofia",
-    idade: 1,
-    tipo: "gato",
-  },
-  {
-    nome: "Bidu",
-    idade: 6,
-    tipo: "cachorro",
-  },
-  {
-    nome: "Mimi",
-    idade: 3,
-    tipo: "gato",
-  },
-  {
-    nome: "Alfredo",
-    idade: 10,
-    tipo: "gato",
-  },
+const data = [{
+        nome: "Scooby Doo",
+        idade: 7,
+        tipo: "cachorro",
+    },
+    {
+        nome: "Sofia",
+        idade: 1,
+        tipo: "gato",
+    },
+    {
+        nome: "Bidu",
+        idade: 6,
+        tipo: "cachorro",
+    },
+    {
+        nome: "Mimi",
+        idade: 3,
+        tipo: "gato",
+    },
+    {
+        nome: "Alfredo",
+        idade: 10,
+        tipo: "gato",
+    },
 
 ];
 
@@ -87,4 +91,3 @@ const data = [
 // printe no console apenas os gatos
 
 // some a idade de todos os gatos juntos
-
