@@ -14,7 +14,15 @@ const users = [
     score: 153
   },
 ]
-
+let tableItem = [] 
+for (objeto of users) {
+  tableItem.push({
+    fullName: `${objeto.fullName.firstName} ${objeto.fullName.lastName}`,
+    genres: objeto.genres,
+    score: objeto.score
+  })
+}
+console.log(tableItem)
 /*
   Você recebeu uma array de objetos da nova desenvolvedora backend do seu trabalho dos sonhos. Porém, percebeu que não vai precisar de todas essas informações! Por conta disso, será necessário criar um novo objeto apenas com aquilo que será utilizado
 
