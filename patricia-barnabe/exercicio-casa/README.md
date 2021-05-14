@@ -113,7 +113,9 @@ let impar = 0;
 let positivo = 0;
 let negativo = 0;
 
-for (i = 0; i <= 5; i++) {
+
+for (i = 0; i <= 4; i++) {
+    const i = prompt("Digite um número:")
   if (i % 2 === 0) {
     par++;
   } else {
