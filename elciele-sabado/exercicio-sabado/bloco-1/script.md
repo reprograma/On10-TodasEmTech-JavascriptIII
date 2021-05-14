@@ -14,21 +14,17 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 multiplicacao(a,b) {
     a * b  
 }
-Resposta: function multiplicacao(a,b){
-   return a * b
+Resposta da 1: falta chamar a função que é (function) e o return
+->function multiplicacao(a,b) {
+    return a * b 
 }
- 
 
 //---2. 
 
 while(item > 10) {
     item++
 }
-resposta: item = 0
-while(item < 10){
-    return item++
-}
-
+Resposta da 2: o item precisa ser definido e tbm precisa do return obs:(o while não é a melhor opção para fazer loop)
 
 //---3. Deve exibir "Banana" 4 vezes
 
@@ -36,8 +32,9 @@ const fruits = ["Maça", "Banana", "Limão", "Pêra"];
 for(x; x = 0; x+) {
     consolelog(x)
 }
-Resposta: for(let x=0; x < fruits.length; x++)
+Resposta da 3: for(let x=0; x < fruits.length; x++){
     console.log(fruits[1])
+}
 
 //---4. Deve exibir um alerta "oi gente" se o primeiro elemento for maior que o segundo
 
@@ -46,25 +43,7 @@ if frases < palavras {
 } else if {
     aler ("tchau gente")
 }
-resposta: if(alguma condicao){
-    resultado se atende condicao
-} else{
-    outro resultado
-}
-
-if(tiver coca){
-    coca
-} else{
-    pepsi
-}
-let frases = 2
-let palavras = 1
-if (frases > palavras) {
-    alert("oi gente")
-} else {
-    alert ("tchau gente")
-}
-
+Resposta da 4
 
 //---5. Deve exibir o valor da propriedade "sobrenome"
 
@@ -76,13 +55,6 @@ let curso: {
       sobrenome = "Lopes"
   };
 }
-console.log(professora.sobrenome)
-
-const objeto = {
-    nome: "jardinagem",
-    periodo: "manha",
-    professora: {
-        nome: "Amanda",
-        sobrenome: "Lopes",
-            }
-}
+console.log(professora.
+sobrenome)
+Resposta da 5:

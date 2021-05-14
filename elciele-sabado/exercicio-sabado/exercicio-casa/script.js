@@ -35,8 +35,3 @@ const users = [
 
   }
 */
-const TableItem = new Object();
-TableItem.fullName = "Marina Lopes";
-TableItem.genres = ["kpop", "rock"];
-TableItem.score = 153;
-console.log(TableItem)

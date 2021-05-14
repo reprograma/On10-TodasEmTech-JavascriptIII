@@ -1,51 +1,53 @@
 //----- Array
 
 // 1. Crie uma array com 5 frutas diferentes;
-
-const frutas = ["laranja", "pera", "uva", "maca", "acai"]
-
+const frutas = ["açaí", "cupuaçu", "melancia", "abacate", "manga" ]
 
 //2. Crie uma array com 100 espaços vazios.
+new arrayCem = new Array(100)
+// slots = espaços 
+arrayCem[2] //undefined
+arrayCem[10] // undefined 
 
-const arrayCem = new Array(100)
-ou
+//outro exemplo aluna
 let posicoes = [];
 posicoes.length = 100;
 
-
 //3. Printe o ultimo elemento da array de frutas, baseando-se no seu length
+console.log(frutas[frutas.length - 1])
+// frutas[5 - 1]
+// frutas[4]
 
-frutas[frutas.length - 1]
-//frutas[5 - 1]
-//frutas[4]
+
 
 //----- For
 
 //4. Printar na tela em cada linha o nome de uma fruta da array anterior;
-
 for(let i=0; i < frutas.length; i++) {
   console.log(frutas[i])
 }
-ou
+//output: banana, pera, morango, kiwi, manga
+
+//exemplo da aluna <3  
 for(i of frutas) {
-  console.log(i)
+console.log(i)
 }
 
 
 //5. Inserir números crescentes a partir do 1 na array de 100 slots (a array vai ter 100 items, com o primeiro sendo 1 e o último sendo 100).
-
 for(let i=0; i < arrayCem.length; i++) {
   arrayCem[i] = i + 1
 }
 
 
+
 //----- ForEach
 
 //6. criar uma array, cujos itens sejam o dobro dos items da array de 100 itens.
-
 arrayCem.forEach((item) => {
   console.log(item * 2);
 })
+
 
 //7. Dada a seguinte array, printe o tamanho de cada string a cada iteração
 
@@ -54,57 +56,26 @@ arrayCem.forEach((item) => {
 
 //8. Dada uma array de nomes, criar uma nova array que adiciona o pronome de tratamento "sra." antes de cada nome;
 
-const nomes = ["laís", "luiza", "fernanda", "marina"]
-
 //9. Dado uma array de preços de livros, retorne uma array com os preços com desconto de 20%.
-
-const precosLivros = [10, 30, 25, 50, 40, 60];
-
 
 
 //---- Filter
 
-const numeros = [1, 2, 3, 4, 5]
-let filtrado = numeros.filter((item) => {
-   return item > 2
- })
-
 //10. Dada a array de livros *com desconto*, crie uma nova array contendo todos os preços que estão abaixo de 30;
-const precosLivros = [8, 10, 30, 40];
-precosLivros.filter((preco) => {
-  (preco < 30) {
-    return preco
-  }
-})
+
 
 //---- Reduce
 
 //11. Como essa promoção de livros está muito boa e você tem dinheiro para comprar os livros que quer, some os preços com desconto dessa array
 
-const precoDosLivrosQueVouComprar = [8, 10];
-const somaPrecos = precoDosLivrosQueVouComprar.reduce(function(acc, ValorInicial){
-  return acc + ValorInicial
-}, 0)
 
 //---- Objetos
 
 //12. Crie um objeto chamado animal com as seguintes propriedades: porte, especie e raca; coloque os valores que quiser
-const animal = [
-  {porte: "pequeno",
-   especie:"cachorro",
-   raca:"shitzu", 
-  }
-]
+
 
 //13. Crie um objeto curso que receba as propriedades: nome, período, professora. Atribua valores as propriedades criadas e separadamente mostre as propriedades no console.log
-const curso = [{
-  nome:"front end",
-  periodo:"sabado integral",
-  professora:"Bruna gil",
-}]
-for(let i=0; i < curso.length; i++) {
-  console.log(curso[i])
-}
+
 
 //--- tudo junto e misturado!!
 
@@ -141,17 +112,7 @@ const data = [
 
 // printar no console apenas os cachorros
 
-let dog = data.filter((animal) => {
-  return animal.tipo === 'cachorro'
-})
-
-
 // printe no console apenas os gatos
-let gatos = data.filter((animal) => {
-  return animal.tipo === 'gato'
-})
+
 // some a idade de todos os gatos juntos
-
-
-
 

@@ -7,14 +7,8 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
-É um processo de repetição
-
 2. Qual a diferença de uma function padrão e a arrow function?
- 
-
-3. Como funciona o método map()?
- 
-map é um método em que a função callback passa por cada elemento do array e gera um novo array com o resultado de acordo com o que foi pedido pelo método
+3. Como funciona o método map()? 
 ```
 
 ### 2. Manipulando objetos 
