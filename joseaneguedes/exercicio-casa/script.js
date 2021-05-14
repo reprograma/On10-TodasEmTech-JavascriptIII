@@ -16,23 +16,10 @@ const users = [{
 
 
 let tableItem = users.forEach(element => {
-  console.log('{ Fullname: ' + element.fullName.firstName + ' ' + element.fullName.lastName + ';\nGenres: ' + '[' + element.genres + '];' + '\nScores: ' + element.score + ' }')
+  console.log('{ fullName: ' + element.fullName.firstName + ' ' + element.fullName.lastName + ';\ngenres: ' + '[' + element.genres + '];' + '\nscores: ' + element.score + ' }')
 });
 
 
-
-//Uma solução:
-
-/* let tableItem = [] 
-for (objeto of users) {
-  tableItem.push({
-    fullName: `${objeto.fullName.firstName} ${objeto.fullName.lastName}`,
-    genres: objeto.genres,
-    score: objeto.score
-  })
-}
-
-console.log(tableItem) */
 
 // Outra solução: 
 
