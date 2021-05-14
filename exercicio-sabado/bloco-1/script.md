@@ -11,41 +11,50 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 
 //---1.
 
-multiplicacao(a,b) {
-    a * b  
+function multiplicacao(a,b) {
+    return a * b  
 }
 
 //---2. 
 
-while(item > 10) {
-    item++
+item = 0
+
+while(item < 10) {
+   return item++
 }
+
 
 
 //---3. Deve exibir "Banana" 4 vezes
 
 const fruits = ["Maça", "Banana", "Limão", "Pêra"];
 for(x; x = 0; x+) {
-    consolelog(x)
+    console.log(x)
 }
+
+for (let x=0; x < fruits.length; x++) {
+    console.log(fruits[1])
+}
+
 
 //---4. Deve exibir um alerta "oi gente" se o primeiro elemento for maior que o segundo
 
-if frases < palavras {
+if (frases > palavras) {
     alert("oi gente")
-} else if {
-    aler ("tchau gente")
+} else {
+    alert ("tchau gente")
 }
 
 
 //---5. Deve exibir o valor da propriedade "sobrenome"
 
 
-let curso: {
-  nome = "Jardinagem";
-  periodo = "manha" ;
-  professora = "Amanda" {
-      sobrenome = "Lopes"
-  };
+let curso= {
+  nome: "Jardinagem",
+  periodo: "manha" ,
+  professora:{
+     nome: "Amanda",
+    sobrenome: "Lopes",
+  }
 }
-console.log(professora.sobrenome)
+console.log(curso.professora.sobrenome)

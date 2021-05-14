@@ -7,8 +7,17 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+
+No contexto de laços de repetição, uma iteração corresponde a cada passada pelo contador.  
+
+
 2. Qual a diferença de uma function padrão e a arrow function?
+
+Uma function é um procedimento que pré-determina algo que será executado toda vez que a mesma for chamada. Alguma condição que for previamente definida trará um resultado, podendo ser uma infinidade de opções, desde uma string até fórmulas de maior complexidade. Uma arrow function é apenas uma nova forma de escrever as funções convencionais, sendo essa sua diferença.
+
 3. Como funciona o método map()? 
+Dentre os diversos métodos apresentados para manipulação de array, o map é responsável por "mapear" um array de forma a criar um novo resultando na função aplicada aos seus elementos. 
+
 ```
 
 ### 2. Manipulando objetos 

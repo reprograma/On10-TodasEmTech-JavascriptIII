@@ -35,3 +35,28 @@ const users = [
 
   }
 */
+
+const tableItem = users.map((item) => {
+  return {
+    fullName: item.fullName.firstName + " " + item.fullName.lastName,
+    genres: item.genres,
+    score: item.score,
+  }
+})
+console.log(tableItem);
+
+/*versão alternativa
+
+const tableItem = new Object()
+
+tableItem.returnFullName = users.fullName.filter(user => user.fullName === "Mariana Lopes");
+
+tableItem.returnGenres = users.filter(user => user.genres === ["kpop", "rock"]);
+
+tableItem.returnScore = users.filter(user => user.score === 153);
+
+console.log(tableItem);
+*/
+
+
+
