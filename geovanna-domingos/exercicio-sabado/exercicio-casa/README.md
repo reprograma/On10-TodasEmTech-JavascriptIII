@@ -1,0 +1,60 @@
+## Exercícios para casa 
+
+
+### 1. Revisando conceitos
+
+Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras: 
+
+```
+1. O que é iteração?
+R: É o processo de repetição realizado por alguns métodos, principalmente aqueles que são relacionados aos arrays, visto que esses métodos passam por cada elemento do array e realizam algo. Diante disso, pode-se dizer que tal processo é um proceso de repetição, ou seja, de iteração.
+
+2. Qual a diferença de uma function padrão e a arrow function?
+R: O objetivos de ambas é a realização de ações, no entanto, a arrow function possui uma sintaxe e escopo mais simples. Duas dessas diferenças são: arrow function pode ser anônima(não precisamos dar um nome a ela) e ela não precisa de colchetes quando apenas uma expressão está sendo realizada.
+
+Exemplo:
+
+Função tradicional: 
+    let soma = function SomarNumeros(numero1, numero2){
+        return numero1 + numero2;
+    };
+
+Arrow function:
+ let soma = (numero1, numero2) => { return numero1 + numero2 };
+
+Outra opção de sintaxe da arrow function:
+ let soma = (numero1, numero2) => numero1 + numero2);
+
+3. Como funciona o método map()? 
+R: O método map funciona iterando um determinado array para que algo seja realizado em cada um dos itens dele. 
+```
+
+### 2. Manipulando objetos 
+O desafio está no `script.js` e consiste em manipular uma array de objetos, juntando alguns conceitos que revisamos hoje. O exercício não é fácil e por isso, tenha calma na resolução. Pesquise e utilize todos os links da referência para chegar a uma solução possível. 
+
+Não tenha medo de errar! Entregue o que conseguiu fazer.
+
+
+----
+
+#### EXTRA: 
+
+O [URI Online Judge](https://www.urionlinejudge.com.br/judge/pt/login) é uma plataforma de exercícios para praticar lógica, selecionei alguns exercícios como lição de casa, caso queira praticar sinta-se a vontade de fazer outros exercícios da plataforma.
+
+
+- [Exercício 01](https://www.urionlinejudge.com.br/judge/pt/problems/view/1038) 
+
+- [Exercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/1049)
+
+- [Exercício 03](https://www.urionlinejudge.com.br/judge/pt/problems/view/1066)
+
+- [Exercício 04](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134)
+
+- [Exercício 05](https://www.urionlinejudge.com.br/judge/pt/problems/view/1114)
+
+- [Exercício 06](https://www.urionlinejudge.com.br/judge/pt/problems/view/1009)
+
+
+Lembrem-se: quanto mais praticamos, mais aprendemos!
+
+Beijos, falem comigo se tiverem dúvidas
