@@ -16,7 +16,7 @@ const users = [{
 
 
 let tableItem = users.forEach(element => {
-  console.log('{ fullName: ' + element.fullName.firstName + ' ' + element.fullName.lastName + ';\ngenres: ' + '[' + element.genres + '];' + '\nscores: ' + element.score + ' }')
+  console.log('{ fullName: ' + element.fullName.firstName + ' ' + element.fullName.lastName + ';\ngenres: ' + '[' + element.genres + '];' + '\nscore: ' + element.score + ' }')
 });
 
 
