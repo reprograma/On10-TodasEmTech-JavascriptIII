@@ -14,6 +14,7 @@ de vocês para abstrair, supor os problemas e escrever uma possível solução.
 multiplicacao(a,b) {
     a * b  
 }
+
 console.log(1,2)
 
 //---2. 
