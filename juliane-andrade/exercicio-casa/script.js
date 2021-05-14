@@ -41,7 +41,7 @@ const tableItem = users.map((item) => {
     }
 })
 
-console.log(tableItem)
+console.log(tableItem);
 
 
 
