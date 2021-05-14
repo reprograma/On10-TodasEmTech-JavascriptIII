@@ -84,9 +84,3 @@ const objeto = {
 }
 
 console.log(objeto.professora.sobrenome)
-
-
-
-
-
-
