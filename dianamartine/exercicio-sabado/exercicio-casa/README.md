@@ -6,8 +6,13 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+R = A iteração em JavaScript é um laço de repetição onde cada repetição executa uma determinada tarefa. No caso de array a iteração percorre todos os elementos do array executando a tarefa desejada.
+
 2. Qual a diferença de uma function padrão e a arrow function?
+R = Além de ter uma sintaxe mais curta, a arrow function é uma função de expressão, ou seja uma função relacionada a uma variável, é uma função anônima sempre, impedindo de ser nomeada. 
+
 3. Como funciona o método map()? 
+R = O map funciona como um "for", ele cria uma repetição de tarefa para cada elemento de um array e retorna um novo array como resultado.
 
 ```
 
