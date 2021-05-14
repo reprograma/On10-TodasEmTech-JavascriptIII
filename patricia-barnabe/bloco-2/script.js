@@ -166,22 +166,28 @@ const data = [
 
 data.filter((objeto) => {
   if (objeto.tipo == "cachorro") {
-    console.log(objeto)
+    return objeto
   }
 })
 
 // Printe no console apenas os gatos
 
 data.filter((objeto) => {
+  return objeto.tipo == "gato" 
+})
+
+// Printe a idade de todos os gatos 
+
+let gatinhos = data.map((objeto) => {
   if (objeto.tipo == "gato") {
-    console.log(objeto)
+    return objeto.idade
+  } else {
+    return 0
   }
 })
 
 // Some a idade de todos os gatos juntos
 
-data.filter((objeto) => {
-  if (objeto.tipo == "gato") {
-    console.log(objeto.idade)
-  }
+gatinhos.reduce((acc, value) =>{
+  return acc + value
 })

@@ -62,9 +62,76 @@ switch (codigoDoLanche) {
 
 alert ("O valor total é R$" + valor.toFixed(2));
 
+
+
 - [Exercício 02](https://www.urionlinejudge.com.br/judge/pt/problems/view/1049)
 
+const tipoVertebra = prompt("É vertebrado ou invertebrado?")
+
+if(tipoVertebra == "vertebrado") {
+  const tipoAnimal = prompt("É ave ou mamifero")
+    if(tipoAnimal == "ave") {
+      const tipoComida = prompt("É carnivoro ou onivoro?")
+        if(tipoComida == "carnivoro") {
+          alert("É uma aguia")
+        } else {
+          alert("É uma pomba")
+        }
+    } else {
+      const tipoComida = prompt("É onivoro ou herbivoro?")
+        if(tipoComida == "onivoro") {
+          alert("É um homem")
+        } else {
+          alert("É uma vaca")
+        }
+    } 
+} else {  
+  const tipoAnimal = prompt("É inseto ou anelideo")
+    if(tipoAnimal == "inseto"){
+      const tipoComida = prompt("É hematofago ou herbivoro?")
+        if(tipoComida == "hematofago") {
+          alert("É uma pulga")
+        } else {
+          alert("É uma lagarta")
+        }
+    } else {
+      const tipoComida = prompt("É hematofago ou onivoro?")
+        if(tipoComida == "hematofago") {
+          alert("É uma sanguessuga")
+        } else {
+          alert("É uma minhoca")
+        }
+    }
+}
+
+
+
 - [Exercício 03](https://www.urionlinejudge.com.br/judge/pt/problems/view/1066)
+
+let par = 0;
+let impar = 0;
+let positivo = 0;
+let negativo = 0;
+
+for (i = 0; i <= 5; i++) {
+  if (i % 2 === 0) {
+    par++;
+  } else {
+    impar++;
+  }
+  if (i > 0) {
+    positivo++;
+  } else if (i < 0) {
+    negativo++;
+  }
+}
+
+console.log(`${par} valor(es) par(es)`)
+console.log(`${impar} valor(es) impar(es)`)
+console.log(`${positivo} valor(es) positivo(s)`) 
+console.log(`${negativo} valor(es) negativos(s)`)
+
+
 
 - [Exercício 04](https://www.urionlinejudge.com.br/judge/pt/problems/view/1134)
 
@@ -98,6 +165,8 @@ while (combustivel <= 4) {
  combustivel = prompt("Qual dos nossos produtos você prefere? 1.Álcool | 2.Gasolina | 3.Diesel | 4.Fim"); 
 }; 
 
+
+
 - [Exercício 05](https://www.urionlinejudge.com.br/judge/pt/problems/view/1114)
 
 let senha = prompt('Digite sua senha: ');
@@ -109,6 +178,8 @@ while(senha !== '2002'){
 
       alert('Acesso permitido');
 
+
+
 - [Exercício 06](https://www.urionlinejudge.com.br/judge/pt/problems/view/1009)
 
 let nomeVendedor = prompt("Nome do vendedor:");
@@ -117,7 +188,6 @@ let totalDeVendas = Number(prompt("Total de vendas efetuadas no mês:"));
 let comissao = 0.15;
 
 let total = salarioFixo + (vendas*comissao);
-
 
 alert ("O valor total é R$" + total.toFixed(2));
 
