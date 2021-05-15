@@ -17,7 +17,7 @@ const users = [
 
 /*
   Você recebeu uma array de objetos da nova desenvolvedora backend do seu trabalho dos sonhos. Porém, percebeu que não vai precisar de todas essas informações! Por conta disso, será necessário criar um novo objeto apenas com aquilo que será utilizado
-
+ 
   Dado o input "users", crie um novo objeto a partir da acima. Ela deverá ter a interface descrita abaixo
 
   interface TableItem {
@@ -35,3 +35,13 @@ const users = [
 
   }
 */
+
+let tableItem = [] 
+for (objeto of users) {
+  tableItem.push({
+    fullName: objeto.fullName,
+    genres: objeto.genres,
+    score: objeto.score 
+  })
+};
+console.log(tableItem)

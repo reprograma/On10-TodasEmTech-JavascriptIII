@@ -7,8 +7,11 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+Resposta = é o jeito mais simples de executar uma ação repetidas vezes.
 2. Qual a diferença de uma function padrão e a arrow function?
+Resposta = uma arrow function tem uma sintaxe mais curta se comparada a uma function.
 3. Como funciona o método map()? 
+Resposta = é invocado a partir do array e recebe como parâmetro uma função de callback, que é invocada para cada item e retorna o valor do item equivalente no array .
 ```
 
 ### 2. Manipulando objetos 
