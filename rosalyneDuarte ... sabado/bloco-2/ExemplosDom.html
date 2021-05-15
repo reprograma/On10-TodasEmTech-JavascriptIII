@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="resultado"> </h1>
+    <label for=""> Uma info qualquer</label>
+    <input id="input" type="text">
+    <button id="botao"> Me clique</button>
+
+    <script>
+    const numeros = [2, 3 , 5, 12, 1]
+
+    const novaArray = numeros.map ((numero) => {
+        return numero * 2
+    })
+
+    console.log('Oi Gente')
+
+    const resultado = document.getElementById("resultado")
+    resultado.textContent = novaArray // 'Acorda MENINAA'
+    
+    const input = document.getElementById("input").value
+
+    </script>
+</body>
+</html>
