@@ -6,8 +6,14 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
+    
+
 2. Qual a diferença de uma function padrão e a arrow function?
+    
+
+
 3. Como funciona o método map()? 
+   
 
 ```
 
