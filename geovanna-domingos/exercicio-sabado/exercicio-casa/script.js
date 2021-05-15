@@ -36,11 +36,22 @@ const users = [
   }
 */
 
+/*Alternativa de solução utilizando o map 
 let tableItem = users.map((user)=>{
-  return {
-    fullName : `${user.fullName.firstName} ${user.fullName.lastName}`,
-    genres : user.genres, 
-    score : user.score
-  }
+  return { fullName : `${user.fullName.firstName} ${user.fullName.lastName}`, genres : user.genres, score : user.score }
 });
-console.log(tableItem);
+console.log(tableItem);*/
+
+/*Alternativa de solução utilizando for 
+let tableItem = [];
+for (user of users) {
+  tableItem.push({fullName:  `${user.fullName.firstName} ${user.fullName.lastName}`, genres: user.genres, score: user.score})
+}
+console.log(tableItem)*/
+
+/*Alternativa de solução utilizando forEach
+let tableItem = [];
+users.forEach((user) => {
+  tableItem.push({fullName:  `${user.fullName.firstName} ${user.fullName.lastName}`, genres: user.genres, score: user.score})
+});
+console.log(tableItem);*/

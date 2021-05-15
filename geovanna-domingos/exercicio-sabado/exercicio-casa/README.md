@@ -7,13 +7,12 @@ Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras:
 
 ```
 1. O que é iteração?
-R: É o processo de repetição realizado por alguns métodos, principalmente aqueles que são relacionados aos arrays, visto que esses métodos passam por cada elemento do array e realizam algo. Diante disso, pode-se dizer que tal processo é um proceso de repetição, ou seja, de iteração.
+R: É o processo de repetição realizado por alguns métodos, principalmente aqueles que são relacionados aos arrays, visto que esses métodos passam por cada elemento do array e realizam algo. Diante disso, pode-se dizer que tal comportamento é de repetição, ou seja, de iteração.
 
 2. Qual a diferença de uma function padrão e a arrow function?
-R: O objetivos de ambas é a realização de ações, no entanto, a arrow function possui uma sintaxe e escopo mais simples. Duas dessas diferenças são: arrow function pode ser anônima(não precisamos dar um nome a ela) e ela não precisa de colchetes quando apenas uma expressão está sendo realizada.
+R: O objetivo de ambas é a realização de ações, no entanto, a arrow function possui uma sintaxe e escopo mais simples. Duas dessas diferenças são: arrow function pode ser anônima(não precisamos dar um nome a ela) e ela não precisa de colchetes, chaves ou parênteses quando apenas uma expressão está sendo realizada.
 
 Exemplo:
-
 Função tradicional: 
     let soma = function SomarNumeros(numero1, numero2){
         return numero1 + numero2;
@@ -26,7 +25,7 @@ Outra opção de sintaxe da arrow function:
  let soma = (numero1, numero2) => numero1 + numero2);
 
 3. Como funciona o método map()? 
-R: O método map funciona iterando um determinado array para que algo seja realizado em cada um dos itens dele. 
+R: O método map funciona iterando um determinado array para que algo seja realizado com/em cada um dos itens dele. 
 ```
 
 ### 2. Manipulando objetos 
