@@ -38,29 +38,29 @@ const users = [
   }
 */
 
-/*Respostas
+/*Respostas*/
 
-/*const tableItem = users.map((user)=>{
+const tableItem = users.map((user)=>{
   return {
     fullName : `${user.fullName.firstName} ${user.fullName.lastName}`,
     genres : user.genres, 
     score : user.score
   }
-});*/
+});
 
 
 /*for (objeto of users) {
   tableItem.push({fullName: objeto.fullName, genres: objeto.genres, score: objeto.score})
 };*/
 
-let tableItem = [] 
+/*let tableItem = [] 
 for (objeto of users) {
   tableItem.push({
     fullName: `${objeto.fullName.firstName} ${objeto.fullName.lastName}`,
     genres: objeto.genres,
     score: objeto.score
   })
-};
+};*/
 
 
 
