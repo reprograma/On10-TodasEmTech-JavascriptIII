@@ -34,4 +34,11 @@ const users = [
     score: 153
 
   }
+
+
 */
+let tableItem = [];
+users.forEach((user) => {
+  tableItem.push({fullName:  `${user.fullName.firstName} ${user.fullName.lastName}`, genres: user.genres, score: user.score})
+});
+console.log(tableItem);
