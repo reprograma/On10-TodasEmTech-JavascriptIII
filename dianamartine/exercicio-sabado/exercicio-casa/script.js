@@ -34,3 +34,23 @@ const users = [
 
   }
 */
+
+/* let tableItem = users.map((i) => {
+  return {
+    fullName: `${i.fullName.firstName} ${i.fullName.lastName}`,
+    genres: i.genres,
+    score: i.score
+  }
+}) */
+
+let tableItem = [];
+
+for (let i of users) {
+  tableItem.push({
+    fullName: `${i.fullName.firstName} ${i.fullName.lastName}`,
+    genres: i.genres,
+    score: i.score
+  })
+}
+
+console.log(tableItem);
