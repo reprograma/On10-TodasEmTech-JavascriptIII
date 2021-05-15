@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Icones - Font,Awesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link, Google -->
+    <meta
+      name="google-signin-client_id"
+      content="tnt-delivery-turma1.apps.googleusercontent.com"
+    />
+
+    <title>Estilos</title>
+
+    <style>
+      @font-face {
+        font-family: "Extenda-50";
+        src: url(./fonts/Extenda\ 50\ Mega.otf) format("opentype");
+      }
+      @font-face {
+        font-family: "Extenda-80";
+        src: url(./fonts/Extenda\ 80\ Peta.otf) format("opentype");
+      }
+      @font-face {
+        font-family: "FiraSans";
+        src: url(./fonts/FiraSans-Regular.ttf) format("truetype");
+      }
+      @font-face {
+        font-family: "Knockout Feather-48";
+        src: url(./fonts/Knockout-HTF48-Featherweight.otf) format("opentype");
+      }
+      @font-face {
+        font-family: "Knockout Feather-49";
+        src: url(./fonts/Knockout-HTF49-Liteweight.otf) format("opentype");
+      }
+
+      body {
+        background: linear-gradient(rgba(46, 36, 34, 1), rgba(173, 67, 53, 0.2)),
+          url(./img/fundo.jpg);
+        font-family: "Knockout Feather-48";
+      }
+
+      .marcador {
+        background: transparent;
+        height: 15vh;
+      }
+
+      .coluna-login {
+        background: #666969;
+        height: 70vh;
+        border-radius: 10px;
+      }
+      .coluna-img {
+        background: transparent;
+        height: 70vh;
+      }
+      .marcador7 {
+        background: transparent;
+        height: 15vh;
+      }
+      /*CAMPO LOGIN*/
+      .campo__login {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 350px;
+      }
+      .img-login__google {
+      }
+      .icon-face {
+        filter: invert(38%) sepia(83%) saturate(4051%) hue-rotate(195deg)
+          brightness(97%) contrast(93%);
+      }
+      a {
+        text-decoration: none;
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      .icons {
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+        padding: 5px;
+      }
+
+      .logo-tnt {
+        box-shadow: 10px 10px 79px 0px rgba(216, 78, 78, 0.66);
+      }
+      .forget__password {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 350px;
+        display: block;
+        align-items: center;
+      }
+      .forget_senha:hover {
+        color: red;
+      }
+      #my_form {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Container Principal , Não mexer! -->
+    <div class="container-fluid">
+      <!-- Fim, Container Principal , Não mexer! -->
+
+      <div class="row">
+        <!--1ª LINHA-->
+        <div class="marcador col-12"></div>
+      </div>
+
+      <!-- 2ª LINHA, Não Mexer-->
+      <div class="row">
+        <!-- 2ª LINHA, Não Mexer-->
+
+        <!-- Coluna 1 -->
+        <div class="offset-md-1 coluna-login col-md-7">
+          <section id="section1">
+            <h3 class="text text-center">Login com:</h3>
+
+            <form name="f1" class="campo__login">
+              <div class="icons">
+                <a href="#">
+                  <img
+                    src="./icons/google-plus.png"
+                    alt="login-google"
+                    class="img-fluid"
+                  />
+                </a>
+
+                <a href="#">
+                  <img
+                    src="./icons/face.png"
+                    alt="login-facebook"
+                    class="img-fluid icon-face ml-3"
+                  />
+                </a>
+              </div>
+
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="icon-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  name="email"
+                  onblur="validacaoEmail(f1.email)"
+                  id="msgemail"
+                />
+              </div>
+
+              <div></div>
+
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="icon-lock"></i>
+                  </span>
+                </div>
+                <input
+                  type="password"
+                  value=""
+                  id="senha"
+                  class="form-control"
+                  placeholder="Senha"
+                />
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="olho"
+                    ><i class="icon-eye-close"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Lembrar-Me</label
+                >
+              </div>
+              <button type="submit" class="btn btn-light">Entrar</button>
+            </form>
+            <br />
+
+            <div class="forget__password">
+              <button
+                href="#"
+                onclick="toggleSection()"
+                class="btn btn-outline-light forget_senha"
+              >
+                Esqueci minha senha
+              </button>
+              <br /><br />
+              <button href="#" class="btn btn-outline-light forget_senha">
+                Ainda não tenho CADASTRO
+              </button>
+            </div>
+          </section>
+
+          <section id="section2" style="display: none" class="campo__login">
+            <br /><br />
+
+            <h3>Esqueci minha senha</h3>
+            <br />
+            <h4>Confirme seu CPF ou Email</h4>
+            <form>
+              <div class="half-box spacing">
+                <label for="number">CPF</label>
+                <input
+                  onblur="VerificaCPF()"
+                  type="text"
+                  name="strCpf"
+                  id="cpf"
+                  placeholder="Digite o seu CPF"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"
+                    ><i class="icon-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  name="email"
+                  onblur="validacaoEmail(f1.email)"
+                  id="msgemail"
+                />
+              </div>
+            </form>
+          </section>
+          <!-- Fim, Coluna 1 -->
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="coluna-img col-md-3">
+          <img
+            src="./img/tnt-logo.svg"
+            class="img-fluid mt-5 logo-tnt"
+            alt="logo-tnt"
+          />
+
+          <!-- Fim, Coluna 2 -->
+        </div>
+        <!-- Fim, Coluna 2 -->
+
+        <!--2ª LINHA, Não Mexer-->
+      </div>
+      <!--2ª LINHA, Não Mexer-->
+
+      <div class="row">
+        <div class="marcador7 col-12"></div>
+      </div>
+
+      <!-- Container Principal , Não mexer! -->
+    </div>
+    <!-- Container Principal , Não mexer! -->
+    <script>
+      // Olho para mostrar senha
+      var senha = $("#senha");
+      var olho = $("#olho");
+
+      olho.mousedown(function () {
+        senha.attr("type", "text");
+      });
+
+      olho.mouseup(function () {
+        senha.attr("type", "password");
+      });
+      // para evitar o problema de arrastar a imagem e a senha continuar exposta,
+      //citada pelo nosso amigo nos comentários
+      $("#olho").mouseout(function () {
+        $("#senha").attr("type", "password");
+      });
+      //FIM, olho para mostrar senha
+
+      // Validação de Email
+      function validacaoEmail(field) {
+        usuario = field.value.substring(0, field.value.indexOf("@"));
+        dominio = field.value.substring(
+          field.value.indexOf("@") + 1,
+          field.value.length
+        );
+
+        if (
+          usuario.length >= 1 &&
+          dominio.length >= 3 &&
+          usuario.search("@") == -1 &&
+          dominio.search("@") == -1 &&
+          usuario.search(" ") == -1 &&
+          dominio.search(" ") == -1 &&
+          dominio.search(".") != -1 &&
+          dominio.indexOf(".") >= 1 &&
+          dominio.lastIndexOf(".") < dominio.length - 1
+        ) {
+          document.getElementById("msgemail").innerHTML = "E-mail válido";
+          alert("E-mail valido");
+        } else {
+          document.getElementById("msgemail").innerHTML =
+            "<font color='red'>E-mail inválido </font>";
+          alert("E-mail invalido");
+        }
+      }
+      // FIM, Validação de EMAIL
+
+      // Sumir seção Login e aparecer recuperar senha
+      function toggleSection() {
+        if (document.getElementById("section1").style.display == "none") {
+          document.getElementById("section1").style.display = "block";
+          document.getElementById("section2").style.display = "none";
+        } else {
+          document.getElementById("section1").style.display = "none";
+          document.getElementById("section2").style.display = "block";
+        }
+      }
+
+      //VALIDAÇÃO DE CPF
+      function VerificaCPF() {
+        strCpf = document.getElementById("cpf").value;
+
+        var soma = 0;
+        var resto;
+
+        if (strCpf == "00000000000" || strCpf.length != 11) {
+          alert("CPF Inválido");
+          return false;
+        }
+
+        for (i = 1; i <= 9; i++) {
+          soma = soma + parseInt(strCpf.substring(i - 1, i)) * (11 - i);
+        }
+
+        resto = soma % 11;
+
+        if (resto == 10 || resto == 11 || resto < 2) {
+          resto = 0;
+        } else {
+          resto = 11 - resto;
+        }
+
+        if (resto != parseInt(strCpf.substring(9, 10))) {
+          alert("CPF Válido");
+          return false;
+        }
+
+        soma = 0;
+
+        for (i = 1; i <= 10; i++) {
+          soma = soma + parseInt(strCpf.substring(i - 1, i)) * (12 - i);
+        }
+
+        resto = soma % 11;
+
+        if (resto == 10 || resto == 11 || resto < 2) {
+          resto = 0;
+        } else {
+          resto = 11 - resto;
+        }
+
+        if (resto != parseInt(strCpf.substring(10, 11))) {
+          alert("CPF Inválido");
+          return false;
+        }
+        alert("CPF VÁLIDO");
+        return true;
+      }
+      //Fim, VALIDAÇÃO DE CPF
+    </script>
+
+    <!-- Link do Api, do Google-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
