@@ -34,3 +34,15 @@ const users = [
 
   }
 */
+
+//UMA POSSÍVEL RESPOSTA RESPOSTA
+
+users.map((item) => { //mapear os itens do objeto
+  const tableItem = { //criar uma constante para guardar o novo objeto
+    fullName: `${item.fullName.firstName} ${item.fullName.lastName}`, //template string
+    genres: item.genres.join(' '), //método 'join' junta os elementos em uma string e retorna a string
+    score: item.score 
+  } 
+  console.log(tableItem) //printa no console o novo objeto
+  //opção: return tableItem
+})
