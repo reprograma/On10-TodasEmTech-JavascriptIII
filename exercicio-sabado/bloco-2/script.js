@@ -54,5 +54,8 @@ arrayCem.forEach((item) => {
 
 const elementosQuimicos = ["Hidrogenio", "Helio", "Litio", "Oxigenio"];
 
+elementosQuimicos.forEach((elemento) => {
+  console.log(elemento.length);
+});
+//10,5,5,8
 
-//os três principais métodos de array estão em outro documento!

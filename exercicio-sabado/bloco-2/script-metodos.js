@@ -4,9 +4,18 @@
 //8. Dada uma array de nomes, criar uma nova array que adiciona o pronome de tratamento "sra." antes de cada nome;
 const nomes = ["laís", "luiza", "fernanda", "marina"];
 
+const incluiNomes = nomes.map((nome) => {
+  return "sra " + nome;
+});
+console.log(incluiNomes);
+
 
 //9. Dado uma array de preços de livros, retorne uma array com os preços com desconto de 20%.
 const precosLivros = [10, 30, 25, 50, 40, 60];
+
+const desconto = precosLivros.map((precoLivro) => {
+  return precoLivro * (1 - 0.2);
+});
 
 //---- Filter 
 
@@ -49,7 +58,30 @@ console.log(soma);
 
 //12. Crie um objeto chamado animal com as seguintes propriedades: porte, especie e raca; coloque os valores que quiser
 
+let animal = {
+  porte: "Grande",
+  especie: "Cachorro",
+  raca: "Golden",
+};
+console.log(animal);
+
+
 //13. Crie um objeto curso que receba as propriedades: nome, período, professora. Atribua valores as propriedades criadas e separadamente mostre as propriedades no console.log
+
+let curso = {
+  nome: "Revisão de Javascript",
+  periodo: "09h às 17h",
+  professora: "Bruna",
+};
+
+console.log(
+  `Nome: ${curso.nome} \n Período: ${curso.periodo} \n Professora: ${curso.professora}`
+);
+
+console.log("Nome: ", curso.nome);
+console.log("Período: ", curso.periodo);
+console.log("Professora: ", curso.professora);
+
 
 //--- tudo junto e misturado!!
 
@@ -90,4 +122,13 @@ let doguinhos = data.filter((animal) => {
 
 // printe no console apenas os gatos
 
+let gatinhos = data.filter((animal) => {
+  return animal.tipo === 'gato';
+});
+console.log(gatinhos)  
+
 // some a idade de todos os gatos juntos
+let idadesGatos = gatinhos.reduce((acc, animal) => {
+  return acc + animal.idade;
+}, 0);
+console.log(idadesGatos);
