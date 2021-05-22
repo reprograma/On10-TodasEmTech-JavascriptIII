@@ -1,19 +1,26 @@
 ## Exercícios para casa 
 
+
 ### 1. Revisando conceitos
 
 Vamos revisar conceitos? Resposta as perguntas abaixo com as suas palavras: 
 
 ```
 1. O que é iteração?
-    
+    Ato de repetir tarefas.
+    Na programação há vários métodos de aplicar a iteração,  muito utilizados na estrutura de laços.
+    O objetivo é executar tarefas repetitivas, numa espécie de sequência de instruções. 
+    Ex: for, While, break entre outros.
 
 2. Qual a diferença de uma function padrão e a arrow function?
-    
+     Introduzida a partir do ES6, arrow function é semelhante as function padrão. Além da sintaxe diferente, existe algumas peculiaridades são elas: Em alguns momentos os parenteses se tornam desnecessarios, tem acesso ao argumento mais próximo, não pode ser utilizada a palavra chave NEW pois não são construtivas.
+
+     Function regular possui as proprias THIS, podem ser criadas utilizando expressões e construtivas.
 
 
-3. Como funciona o método map()? 
-   
+3. Como funciona o método map()?
+     O método mapea a array se utiliza da função callback,faz repetiçoes no array até a conclusão da condição ser executada e cria uma nova array. O map não modifica a array original, mas a função callback pode.
+
 
 ```
 
