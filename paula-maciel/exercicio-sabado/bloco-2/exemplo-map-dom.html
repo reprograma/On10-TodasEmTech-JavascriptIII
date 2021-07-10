@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exemplos no dom</title>
+</head>
+
+<body>
+    <h1 id="resultado"></h1>
+    <label for="">uma info qualquer</label>
+    <input id="input" type="text">
+    <button id="botao">me clique</button>
+
+
+
+    <script>
+        //USANDO FOR 
+        const numeros = [2, 3, 4, 5, 10]
+        let novoArrayNumeros = []
+
+        for (let i = 0; i < numeros.length; i++) {
+            console.log(numeros[i] * 2)
+            novoArrayNumeros.push(numeros[i] * 2)
+        }
+
+        // USANDO MAP
+        const numeros = [2, 3, 4, 5, 10]
+        const novaArray = numeros.map((numero) => {  // /funcao de callback para manipular os valores da array. Esse valor dentro do callback equivale a i
+            return numero * 2 // retorna um novo array após aplicar a instrução da função callback 
+        })
+
+        console.log("oii genti") // vai aparecer no console do navegador quando abrir o html
+        console.log(novaArray) // vai aparecer no console do navegador quando abrir o html
+
+        // DOM é um objeto
+        // Para manipular o DOM, acessamos suas propriedades, métodos e valores
+        const resultado = document.getElementById("resultado") // salvo o elemento H1 em uma constante
+        resultado.textContent = novaArray  //coloco a NovaArray como um texto em H1
+
+        const input = document.getElementById("input").value //como é um input, preciso acessar a propriedade "valores" para conseguir acessar o que é digitado pelo usuário
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
